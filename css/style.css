@@ -229,4 +229,47 @@ a {
   background-color: #263b58;
 }
 
+.testimonials {
+  margin: 50px 150px;
+  padding: 40px 50px;
+  border-radius: 60px;
+  height: 380px;
+  background-color: #467495;
+  color: #fffefe;
+}
+.testimonials__title {
+  font-size: 28px;
+}
+.testimonials__people {
+  display: flex;
+}
+.testimonials__people--person1 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.testimonials__people--person1 .testimonial__picture img {
+  width: 160px;
+  height: 160px;
+}
+.testimonials__people--person1 .text {
+  padding: 0 15px;
+}
+.testimonials__people--person1 .text .testimonial {
+  font-size: 17px;
+  line-height: 20px;
+}
+.testimonials__people--person1 .text .testimonial__text {
+  text-align: justify;
+  padding-bottom: 25px;
+}
+.testimonials__people--person2 {
+  display: flex;
+  width: 50%;
+}
+.testimonials__people--person2 .testimonial__picture img {
+  width: 175px;
+  height: 175px;
+}
+
 /*# sourceMappingURL=style.css.map */
