@@ -283,10 +283,12 @@
   &__people {
     display: flex;
 
-    &--person1 {
+    &--person1,
+    &--person2 {
       display: flex;
       align-items: center;
       width: 50%;
+      height: 270px;
 
       .testimonial {
         &__picture {
@@ -302,6 +304,8 @@
         .testimonial {
           font-size: 17px;
           line-height: 20px;
+          display: flex;
+          align-items: center;
 
           &__text {
             text-align: justify;
@@ -309,6 +313,7 @@
           }
 
           &__name {
+            font-weight: 700;
           }
         }
       }
@@ -316,16 +321,27 @@
 
     &--person2 {
       display: flex;
+      align-items: center;
       width: 50%;
 
       .testimonial {
         &__picture {
           img {
-            width: 175px;
-            height: 175px;
+            width: 160px;
+            height: 160px;
           }
         }
       }
     }
   }
+}
+
+.footer {
+  display: flex;
+
+  height: 300px;
+  width: 100%;
+
+  background-color: $darkBlue;
+  color: $light;
 }
