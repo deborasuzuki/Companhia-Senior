@@ -1,6 +1,6 @@
 html {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -22,7 +22,7 @@ a {
 .register {
   width: 100%;
   height: 100vh;
-  background-image: url(/src/Images/register_1.jpg);
+  background-image: url(/src/images/backgrounds/register_1.jpg);
   background-size: cover;
   opacity: 90%;
   display: flex;
