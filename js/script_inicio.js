@@ -1,6 +1,7 @@
 //Validação do cadastro de usuário
 const init = () => {
   console.log('Iniciado');
+  cadastrarUsuario();
 };
 
 window.onload = init;
@@ -101,3 +102,24 @@ function validarCadastro(event) {
   window.location.href = './registerFinish.html';
   // console.log('Cadastrado');
 }
+
+function cadastrarUsuario() {
+  event.preventDefault();
+  // Declaração de variáveis do inputs
+  const nome = document.getElementById('user__name').value;
+  const sobrenome = document.getElementById('user__lastname').value;
+  const nascimento = document.getElementById('user__birthday').value;
+  const email = document.getElementById('user__email').value;
+  const cidade = document.getElementById('user__city').value;
+  const estado = document.getElementById('user__state').value;
+  const senha = document.getElementById('user__password').value;
+
+  console.log(' ', nome);
+  console.log(' ', sobrenome);
+  console.log(' ', nascimento);
+  console.log(' ', email);
+  console.log(' ', senha);
+  console.log(' ', nome);
+}
+
+// onclick="validarCadastro(event)"
